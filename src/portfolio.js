@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/17YeAXXSi1dixM3_-AKakSiuQXyKdIIFp/view?usp=sharing",
-  portfolio_repository: "https://github.com/nimilshah0305/portfolio_NShah.git",
+  portfolio_repository: "https://github.com/nimilshah0305/portfolio_nshah",
 };
 
 const socialMediaLinks = [
