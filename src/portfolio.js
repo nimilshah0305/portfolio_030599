@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/17YeAXXSi1dixM3_-AKakSiuQXyKdIIFp/view?usp=sharing",
-  portfolio_repository: "https://github.com/nimilshah0305/portfolio_Nshah",
+  portfolio_repository: "https://github.com/nimilshah0305/portfolio_NShah.git",
 };
 
 const socialMediaLinks = [
@@ -61,7 +61,7 @@ const socialMediaLinks = [
 
   {
     name: "Facebook",
-    link: "https://www.facebook.com/laymanbrother.19/",
+    link: "https://www.facebook.com/nimil.shah.5",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
