@@ -19,7 +19,9 @@ export default function Projects() {
       request: (operation) => {
         operation.setContext({
           headers: {
-            authorization: `Bearer ${atob(openSource.githubConvertedToken)}`,
+            authorization: `Bearer ${atob(
+              openSource.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
+            )}`,
           },
         });
       },
@@ -29,7 +31,7 @@ export default function Projects() {
       .query({
         query: gql`
           {
-            repositoryOwner(login: "${openSource.githubUserName}") {
+            repositoryOwner(login: "${openSource.nimilshah0305}") {
               ... on User {
                 pinnedRepositories(first: 6) {
                   edges {
@@ -76,7 +78,7 @@ export default function Projects() {
       <Button
         text={"More Projects"}
         className="project-button"
-        href="https://github.com/ashutosh1919"
+        href="https://github.com/nimilshah0305"
         newTab={true}
       />
     </div>

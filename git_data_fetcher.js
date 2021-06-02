@@ -1,6 +1,6 @@
 const openSource = {
-  githubConvertedToken: "Your Github Token Here.",
-  githubUserName: "Your Github Username Here.",
+  githubConvertedToken: "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",
+  githubUserName: "nimilshah0305",
 };
 
 const fetch = require("node-fetch");
@@ -9,7 +9,7 @@ var fs = require("fs");
 const query_pr = {
   query: `
 	query {
-	  user(login: "${openSource.githubUserName}"){
+	  user(login: "${openSource.nimilshah0305}"){
 	    pullRequests(last: 100, orderBy: {field: CREATED_AT, direction: DESC}){
       totalCount
       nodes{
@@ -46,7 +46,7 @@ const query_pr = {
 const query_issue = {
   query: `query{
 
-		user(login: "${openSource.githubUserName}") {
+		user(login: "${openSource.nimilshah0305}") {
     issues(last: 100, orderBy: {field:CREATED_AT, direction: DESC}){
       totalCount
       nodes{
@@ -81,7 +81,7 @@ const query_issue = {
 
 const query_org = {
   query: `query{
-	user(login: "${openSource.githubUserName}") {
+	user(login: "${openSource.nimilshah0305}") {
 	    repositoriesContributedTo(last: 100){
 	      totalCount
 	      nodes{
@@ -99,7 +99,7 @@ const query_org = {
 const query_pinned_projects = {
   query: `
 	query { 
-	  user(login: "${openSource.githubUserName}") { 
+	  user(login: "${openSource.nimilshah0305}") { 
 	    pinnedItems(first: 6, types: REPOSITORY) {
 	      totalCount
 	      nodes{
